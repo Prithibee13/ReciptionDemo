@@ -1,0 +1,68 @@
+
+#new
+{
+    margin-top: 10%;
+}
+
+#old
+{
+    margin-top: 10%;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.ret
+{
+    margin: auto;
+}
+
+.copyright-text:hover
+{
+    color: #28a745;
+}
+
+.site-footer a:hover
+{
+  color: #28a745;
+}
+
+.designer:hover
+{
+  color: #28a745;
+}
+
+.email,
+.avi,
+.hed,
+.cnt,
+.phn
+{
+    color: #ffffff;
+}
+
+.email:hover,
+.avi:hover,
+.hed:hover,
+.cnt:hover,
+.phn:hover
+{
+    color: #28a745;
+}
+
+
+.header1
+{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url("./images/pix13.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+
+#section2
+{
+    margin-top: 20%;
+}

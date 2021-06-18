@@ -1,0 +1,69 @@
+
+#new
+{
+    margin-top: 10%;
+}
+
+#old
+{
+    margin-top: 10%;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.ret
+{
+    margin: auto;
+}
+
+.copyright-text:hover
+{
+    color: #dc3545;
+}
+
+.site-footer a:hover
+{
+  color: #dc3545;
+}
+
+.designer:hover
+{
+  color: #dc3545;
+}
+
+.email,
+.avi,
+.hed,
+.cnt,
+.phn
+{
+    color: #ffffff;
+}
+
+.email:hover,
+.avi:hover,
+.hed:hover,
+.cnt:hover,
+.phn:hover
+{
+    color: #dc3545;
+}
+
+
+.header2
+{
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("./images/pix29.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+
+
+.section3
+{
+    margin-top: 20%;
+}

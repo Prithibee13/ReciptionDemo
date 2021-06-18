@@ -1,0 +1,197 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" type="text/css" href="styles4.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script src="control.js"></script>
+        <title>Doctor Tab</title>
+    </head>
+    <body>
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html"><img src="./images/pix1.png" width="50px" height="50px">DR.Akash-Care</a>
+        
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+        
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link smoothScroll">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="location1.html" class="nav-link smoothScroll">Office</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="location2.html" class="nav-link">Chamber #1</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="location3.html" class="nav-link">Chamber #2</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <section>
+            <div class="container">
+                <div class="row first">
+                    <div class="col-lg-6 col-12" >
+                        <img class="w-100 img-fluid rounded" data-aos="fade-up" data-aos-delay="100" src="images/pix6.jpg"/>
+                    </div>
+                    <div class="col-lg-6 col-md-10 col-12 d-flex flex-column justify-content-center align-items-center mb-5">
+                        <div class="hero-text text-center">
+
+                             <h1 class="text-danger" data-aos="fade-right" data-aos-delay="200">CHAMBER #2</h1>
+                             <h2 class="" data-aos="fade-left" data-aos-delay="400">Set An Appointment With Us</h2>
+                             <div class="mt-4 text-white">
+                                 <a href="#cnt" data-aos="fade-right" data-aos-delay="600" class="btn btn-warning">Contact Me</a>
+                                 <a href="location3.html#stop" data-aos="fade-left" data-aos-delay="800" class="ml-5 btn btn-success">ADDRESS</a>
+                             </div>
+                        </div>
+                  </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="off" class="mb-5">
+            <div class="ret text-center">
+                <button class="btn btn-primary" data-aos="fade-right" data-aos-delay="100" id="btn1" onclick="show1()">New Patients</button>
+                <button class="btn btn-secondary ml-5" id="btn2" data-aos="fade-left" data-aos-delay="300" onclick="show2()">Old Patient</button>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-12 mx-auto mt-25 collapse" id="new">
+                        <div class="card text-danger" data-aos="fade-up" id="newc">
+                            <div class="card-body">
+                                <h3 class="card-title text-center" data-aos="fade-up">Register</h3>
+                                <p class="card-text text-center" data-aos="fade-up">
+                                    Register A New Patient Here
+                                </p>
+                                <form data-aos="fade-up" class="form-horizontal text-center mt-5" onsubmit="P1(event)">
+                                    <div  class="form-group">
+                                        <input data-aos="fade-up" type="text" class="form-control-md" placeholder="Patient's Name" required/>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" data-aos="fade-up" class="form-control-md" placeholder="Patient's Age" required/>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" data-aos="fade-up" class="form-control-md" placeholder="Patient's Gender" required/>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" data-aos="fade-up" class="form-control-md" placeholder="Mobile Number" required/>
+                                    </div>
+                                    <div class="form-group">
+                                        <button data-aos="fade-up" class="btn btn-success">Register</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-12 mx-auto collapse" id="old">
+                    <div class="card text-danger" data-aos="fade-up" id=oldc>
+                        <div class="card-body">
+                            <h3 class="card-title text-center" data-aos="fade-up">Register</h3>
+                            <p class="card-text text-center" data-aos="fade-up">
+                                Register An Old Patient Here
+                            </p>
+                            <form class="form-horizontal text-center mt-5" data-aos="fade-up" onsubmit="P1(event)">
+                                <div class="form-group">
+                                    <input type="text" class="form-control-md" data-aos="fade-up" placeholder="Patinet's Mobile Number" required/>
+                                </div>
+                                <div class="form-group">
+                                    <button data-aos="fade-up" class="btn btn-success">Register</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+
+        <section>
+            <footer class="site-footer" data-aos="fade-up">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5 mx-lg-auto col-md-8 col-10 text-center">
+                            <h1 class="hed" data-aos="fade-up" data-aos-delay="100"><img src="./images/pix1.png" width="50px" height="50px">Dr. Akash-care</h1>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-12" data-aos="fade-up" data-aos-delay="200">
+                            <h4 class="my-4  cnt" id="cnt">Contact Info</h4>
+            
+                            <p class="phn">
+                                <span ><i class="far fa-phone fa-2x mr-2 footer-icon"></i></span> 
+                                +99 080 070 4224
+                            </p>
+            
+                            <p class="email">
+                                <span><i class="far fa-envelope fa-2x mr-2 footer-icon"></i></span>
+                                test@test.com
+                            </p>
+                        </div>
+                      <div class="col-lg-3 col-md-6 col-12" data-aos="fade-up" data-aos-delay="300">
+                        <h4 class="my-4 avi">We are Avilable At</h4>
+            
+                        <p class="mb-1">
+                            <ul class="office-list">
+                                <li class="mb-2"><span class="text-primary"><i class="far fa-search-location fa-2x mr-2"></i><a id="a1" href="Office.html">OFFICE</a></span></li>
+                                <li class="mb-2"><span class="text-success"><i class="far fa-location-arrow fa-2x mr-2"></i><a id="a2" href="Chamber1.html">Chamber#1</a></span></li>
+                                <li><span class="text-danger"><i class="far fa-compass fa-2x mr-2"></i><a id="a3" href="Chamber2.html">Chamber#2</a></span></li>
+                            </ul>
+                        </p>
+                      </div>
+            
+                      <div class="col-lg-4 mx-lg-auto text-white col-md-8 col-12 text-center" data-aos="fade-up" data-aos-delay="400">
+                        <p class="copyright-text">Copyright &copy; Charles Kenton 2021</p>
+                        <p class="designer">Designer : <span class="text-info"><i class="fas fa-house-user fa-2x"></i></span>Aziz-Prithibee</p>
+                        <br>
+                      </div>
+                      
+                        <div class="col-lg-3 col-md-6 col-12 text-white" data-aos="fade-up" data-aos-delay="300">
+                            <p>
+                                <ul class="footer-link">
+                                    <li data-aos="fade-up" data-aos-delay="100"><a href="#">Story</a></li>
+                                    <li data-aos="fade-up" data-aos-delay="200"><a href="#">Works</a></li>
+                                    <li data-aos="fade-up" data-aos-delay="300"><a href="#">Papers</a></li>
+                                </ul>
+                            </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 text-white" data-aos="fade-up" data-aos-delay="300">
+                        <p>
+                            <ul class="social-icon">
+                                <li data-aos="fade-right" data-aos-delay="300">
+                                    <span class="text-primary"><a href="" class="fab fa-facebook fa-2x"></a></span>
+                                </li>
+                                <li data-aos="fade-up" data-aos-delay="350">
+                                    <span class="text-danger"><a href="" class="fab fa-github fa-2x"></a></span>
+                                </li>
+                                <li data-aos="fade-left" data-aos-delay="400"><span class="text-success"><a href="" class="fab fa-linkedin-in fa-2x"></a></span></li>
+                            </ul>
+                        </p>
+                </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    </body>
+
+    <script>
+        AOS.init();
+    </script>
+</html>
