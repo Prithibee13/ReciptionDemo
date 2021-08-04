@@ -67,15 +67,15 @@ const D1 = (e) =>
 
 const show1 = () =>
 {
-    document.getElementById("new").style.display = "block";
-    document.getElementById("old").style.display = "none";
+    document.getElementById("onen").style.display = "block";
+    document.getElementById("oneo").style.display = "none";
     AOS.init();
 }
 
 const show2 = () =>
 {
-    document.getElementById("new").style.display = "none";
-    document.getElementById("old").style.display = "block";
+    document.getElementById("onen").style.display = "none";
+    document.getElementById("oneo").style.display = "block";
     AOS.init();
 }
 

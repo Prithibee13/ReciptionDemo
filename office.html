@@ -17,7 +17,7 @@
         <div>
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div class="container">
-                    <a class="navbar-brand" href="index.html"><img src="./images/pix1.png" width="50px" height="50px">DR.Akash-Care</a>
+                    <a class="navbar-brand" href="index.html"><img src="./images/pix1.png" width="50px" height="50px">Doctors' Care</a>
         
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -67,60 +67,56 @@
             
         <section id="off" class="mb-5" data-aos="fade-up">
             <div class="ret text-center">
-                <button class="btn btn-primary" data-aos="fade-right" data-aos-delay="200" id="btn1" onclick="show1()">New Patients</button>
-                <button class="btn btn-secondary ml-5" id="btn2" data-aos="fade-left" data-aos-delay="400" onclick="show2()">Old Patient</button>
+                <button class="btn text-white" data-aos="fade-right" data-aos-delay="200" id="btn1" onclick="show1()">New Patients</button>
+                <button class="btn text-white ml-5" id="btn2" data-aos="fade-left" data-aos-delay="400" onclick="show2()">Old Patient</button>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-12 mx-auto mt-25 " id="new">
-                        <div class="card text-primary" data-aos="fade-up" id="newc">
-                            <div class="card-body">
-                                <h3 class="card-title text-center" data-aos="fade-up">Register</h3>
-                                <p class="card-text text-center" data-aos="fade-up">
-                                    Register A New Patient Here
-                                </p>
-                                <form data-aos="fade-up" class="form-horizontal text-center mt-5" onsubmit="P1(event)">
-                                    <div  class="form-group">
-                                        <input data-aos="fade-up" type="text" class="form-control-md" placeholder="Patient's Name" required/>
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="text" data-aos="fade-up" class="form-control-md" placeholder="Patient's Age" required/>
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="text" data-aos="fade-up" class="form-control-md" placeholder="Patient's Gender" required/>
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="text" data-aos="fade-up" class="form-control-md" placeholder="Mobile Number" required/>
-                                    </div>
-                                    <div class="form-group">
-                                        <button data-aos="fade-up" class="btn btn-success">Register</button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <section class="mt-10 mb-10" id="onen">
 
-                <div class="col-md-6 col-12 mx-auto" id="old">
-                    <div class="card text-primary" data-aos="fade-up" id=oldc>
-                        <div class="card-body">
-                            <h3 class="card-title text-center" data-aos="fade-up">Register</h3>
-                            <p class="card-text text-center" data-aos="fade-up">
-                                Register An Old Patient Here
-                            </p>
-                            <form class="form-horizontal text-center mt-5" data-aos="fade-up" onsubmit="P1(event)">
-                                <div class="form-group">
-                                    <input type="text" class="form-control-md" data-aos="fade-up" placeholder="Patinet's Mobile Number" required/>
-                                </div>
-                                <div class="form-group">
-                                    <button data-aos="fade-up" class="btn btn-success">Register</button>
-                                </div>
-                            </form>
-                        </div>
+                <h1 class="title text-center">Register a New Patient</h1>
+                <div class="container">
+                    <div class="row reg-form mx-auto text-center">
+                            <div class="form-field col-lg-6">
+                                <input type="text" class ="input-text" name ="name" placeholder="Name" required/>
+                            </div>
+                            <div class="form-field col-lg-6">
+                                <input type="text" class ="input-text" name ="age" placeholder="Age" required/>
+                            </div>
+                            <div class="form-field col-lg-6">
+                                <input type="text" class ="input-text" name ="Gender" placeholder="Gender" required/>
+                            </div>
+                            <div class="form-field col-lg-6">
+                                <input type="text" class ="input-text" name ="mobile" placeholder="Mobile Number" required/>
+                            </div>
+                            <div class="form-field col-lg-6">
+                                <input type="date" class ="input-text" name ="mobile" placeholder="Visiting Date" required/>
+                            </div>
+                            <div class="form-field mx-auto text-white col-lg-12">
+                               <button class="btn">Register</button>
+                            </div>
+                    
+                            
                     </div>
                 </div>
-            </div>
+            </section>
             
+            <section class="mt-10 mb-10" id="oneo">
+
+                <h1 class="title text-center">Register an Old Patient</h1>
+                <div class="container">
+                        <div class="row reg-form mx-auto text-center">
+                            <div class="form-field col-lg-6">
+                                <input type="text" class ="input-text" name ="name" placeholder="Patient's ID" required/>
+                            </div>
+                            <div class="form-field col-lg-6">
+                                <input type="date" class ="input-text" name ="mobile" placeholder="Visiting Date" required/>
+                            </div>
+                            
+                            <div class="form-field mx-auto text-white col-lg-6">
+                               <button class="btn">Register</button>
+                            </div>
+                    </div>
+                </div>
+            </section>
         </section>
 
         
@@ -129,7 +125,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-5 mx-lg-auto col-md-8 col-10 text-center">
-                            <h1 class="hed" data-aos="fade-up" data-aos-delay="100"><img src="./images/pix1.png" width="50px" height="50px">Dr. Akash-care</h1>
+                            <h1 class="hed" data-aos="fade-up" data-aos-delay="100"><img src="./images/pix1.png" width="50px" height="50px">Doctor's Care</h1>
                           </div>
                           <div class="col-lg-3 col-md-6 col-12" data-aos="fade-up" data-aos-delay="200">
                             <h4 class="my-4  cnt" id="cnt">Contact Info</h4>
